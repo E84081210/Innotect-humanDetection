@@ -9,7 +9,7 @@ Reference
 Pysource: Object Tracking from scratch with OpenCV and Python
 https://www.youtube.com/watch?v=GgGro5IV-cs
 
-Last but not least, big thank to my mentor MaxChang during internship\
+Last but not least, big thank to my mentor MaxChang during internship
 
 Feel free if you have any question to ask :)
 """
@@ -32,12 +32,10 @@ def detectModel(cam):
     Arguments:
         cam: video or RTSP
         
-
     Return:
         boxes: bounding box with (class_id, confidence_score, bboxes),
         bboxes store the exact position of topleft and lowerright,
         or width, height and topleft position
-
     """
     boxes = None
     return boxes
